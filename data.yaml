@@ -1,0 +1,13 @@
+train: C:\Users\aksha\Downloads\btp.v1i.yolov11\train
+val: C:\Users\aksha\Downloads\btp.v1i.yolov11\valid
+test: C:\Users\aksha\Downloads\btp.v1i.yolov11\test
+
+nc: 5
+names: ['mine', 'other', 'shipwreck', 'bedrock group', 'artificial reef']
+
+roboflow:
+  workspace: akki-jvims
+  project: btp-8kuhk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/akki-jvims/btp-8kuhk/dataset/1
